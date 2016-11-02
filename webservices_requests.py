@@ -20,7 +20,7 @@ def access(url, method, payload, wrong_params):
             elapsed = done - start
             current_result = {
                 'url':     url,
-                'method': 'POST',
+                'method':  method,
                 'start':   start,
                 'elapsed': elapsed,
                 'header':  q.headers,
